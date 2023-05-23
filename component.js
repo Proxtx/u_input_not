@@ -10,6 +10,7 @@ export class Component {
     await this.arg1.component.inputDefinition({
       type: "unify",
       name: "Not",
+      evaluate: true,
     });
   }
 
